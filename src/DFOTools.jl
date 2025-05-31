@@ -1,5 +1,6 @@
 module DFOTools
 
-# Write your package code here.
+# Structures
+include("structures/problem.jl")
 
 end
