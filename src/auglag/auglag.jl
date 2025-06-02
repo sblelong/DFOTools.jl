@@ -17,11 +17,15 @@ end
 
 - Draft version.
 - Solve a constrained problem with an augmented Lagrangian method, whose subproblem is solved by `NOMAD.jl`.
+- Derivative-free version of Andreani et al.'s 2007 AUGLAG, as proposed by Diniz-Ehrhardt et al. in 2011.
 
 # Arguments
 - `bb::Blackbox`: the blackbox to be optimized. Should take `x::Vector{Float64}` as an input and return an output of the form `Tuple{Float64,Vector{Float64},Vector{Float64}}` where the first number is the objective value and the vectors of inequality and equality constraints, in this order.
+
+# TODOS
+- Handle the types of problems (equalities, inequalities, unconstrained) in a cleaner way.
 """
-function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{Float64}}=nothing, μ0::Union{Nothing,Vector{Float64}}=nothing, γ::Float64=0.5, MAX_ITERS::Int=100)
+function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{Float64}}=nothing, μ0::Union{Nothing,Vector{Float64}}=nothing, γ::Float64=1.5, τ::Float64=0.75, MAX_ITERS::Int=100)
     # Dimension, number of equalities and inequalities.
     n, m, p = get_dim(bb), nb_eqs(bb), nb_ineqs(bb)
 
@@ -46,7 +50,8 @@ function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{F
     # Outer iterations of the augmented Lagrangian method.
     k = 0
     x = x0
-    options = NOMAD.NomadOptions(max_bb_eval=10)
+    options = NOMAD.NomadOptions(max_bb_eval=50)
+    previous_gap = 0.0
     while k < MAX_ITERS
         # 1. Solve the augmented Lagrangian subproblem with a DFO method, here MADS.
         L(y) = auglag_bb_wrapper(bb, y; ρ, λ, μ)
@@ -55,19 +60,30 @@ function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{F
         x = result.x_best_feas
 
         # 2. Estimate new Lagrange multipliers.
-        h = [eval_eq(bb, i, x) for i in 1:p]
-        λ = λ .+ (ρ * h)
-        g = [eval_ineq(bb, i, x) for i in 1:m]
-        V = max.(g, -1 / ρ * μ)
-        μ = max.(zeros(p), μ .+ (ρ * g))
-
-        # 3. Update the penalty parameter.
-        if k > 0
-            if max(maximum(h), maximum(V)) > τ * max(maximum(hprev), maximum(Vprev)) # TODO: save h and V from previous iteration every time.
-                ρ *= γ
-            end
+        if nb_eqs(bb) > 0
+            h = [eval_eq(bb, i, x) for i in 1:m]
+            λ = λ .+ (ρ * h)
+        end
+        if nb_ineqs(bb) > 0
+            g = [eval_ineq(bb, i, x) for i in 1:p]
+            V = max.(g, -1 / ρ * μ)
+            μ = max.(zeros(p), μ .+ (ρ * g))
         end
 
+        # 3. Update the penalty parameter.
+        # This rule uses a criterion that measures a combination of feasibility and dual-complementarity.
+        if nb_ineqs(bb) > 0
+            gap = max(maximum(h), maximum(V))
+        else
+            gap = maximum(h)
+        end
+
+        if gap > τ * previous_gap
+            ρ *= γ
+        end
+        previous_gap = gap
+
         k += 1
+        println(x)
     end
 end
