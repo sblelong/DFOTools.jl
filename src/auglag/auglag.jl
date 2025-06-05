@@ -50,9 +50,6 @@ function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{F
     # Penalty parameter
     ρ = ρ0
 
-    # Counter to limit the amount of successive unsuccessful interations
-    succ_fail = 0
-
     # Outer iterations of the augmented Lagrangian method.
     k = 0
     x = x0
@@ -70,10 +67,8 @@ function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{F
         auglag_pb = NomadProblem(n, 1, ["OBJ"], L; options=options)
         result = solve(auglag_pb, x)
         new_x = result.x_best_feas
-        auglag_value = result.bbo_best_feas[1]
 
-        # Convergence test proposed by Diniz-Ehrhardt et al.: evaluate the AL and the feasibility of the incumbent solution
-        # This rule uses a criterion that measures a combination of feasibility and dual-complementarity.
+        # Evaluation of feasibility through a rule that combines primal- and dual-feasibility.
         if p > 0
             g = [eval_ineq(bb, i, new_x) for i in 1:p]
             V = max.(g, -1 / ρ * μ)
@@ -85,20 +80,11 @@ function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{F
             gap = 0.0
         end
 
-        if gap < εfeas
-            coordinate_values = [L(new_x .+ δ .* I[1:n, i]) for i in 1:n]
-            if all(coordinate_values .≥ auglag_value)
-                x = new_x
-                println("# Optimization has converged. x*=$(x), f(x*)=$(eval_obj(bb, x))")
-                break
-            end
-        end
-
         # 2. Estimate new Lagrange multipliers.
-        if nb_eqs(bb) > 0
+        if m > 0
             λ = λ .+ (ρ * h)
         end
-        if nb_ineqs(bb) > 0
+        if p > 0
             μ = max.(zeros(p), μ .+ (ρ * g))
         end
 
@@ -106,22 +92,17 @@ function dfauglag(bb::Blackbox, x0::Vector{Float64}; λ0::Union{Nothing,Vector{F
         if gap > τ * previous_gap
             ρ *= γ
         end
-        previous_gap = gap
-        k += 1
 
-        # Control the amount of successive failures
-        if norm(x .- new_x) < εfail
-            succ_fail += 1
-        else
-            succ_fail = 0
-        end
-
-        if succ_fail ≥ MAX_SUCC_FAIL
-            println("# Max of successive failures, optimization stopped. Best point found: x=$(x), f(x)=$(eval_obj(bb, x)), h(x)=$([eval_eq(bb, i, x) for i in 1:m])")
+        # If no improvement, stop the procedure. This is not a desirable behavior, but is used here as a patch.
+        if maximum(abs.(x .- new_x)) < εfail
+            println("# No improvement found. Incumbent solution: x=$(x), f(x)=$(eval_obj(bb, x)), h(x)=$([eval_eq(bb, i, x) for i in 1:m])")
             break
         end
 
+        # 4. End of current iteration.
+        previous_gap = gap
         x = new_x
-        println("## End of iteration $k, (x,f(x))=($x, $(eval_obj(bb, x)))")
+        k += 1
+        println("## End of iteration $k, (x,f(x),h(x))=($x, $(eval_obj(bb, x)), $([eval_eq(bb, i, x) for i in 1:m]))")
     end
 end
