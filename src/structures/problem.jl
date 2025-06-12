@@ -19,26 +19,20 @@ mutable struct Blackbox
     ineqs::Vector{Function}
     eqs::Vector{Function}
     name::String
+    lbound::Vector{Float64}
+    ubound::Vector{Float64}
 end
 
 """
-    Blackbox(dim::Int, obj::Function, name::String)
+    Blackbox(dim::Int, obj::Function, lbound::Vector{Float64}, ubound::Vector{Float64}, name::String)
 
-Construct a `dim`-dimensional `Blackbox` problem with objective `obj` and name `name`.
+Construct a `dim`-dimensional `Blackbox` problem with objective `obj`, name `name` and given bounds.
 The constraints vectors are initialized empty.
 """
-function Blackbox(dim::Int, obj::Function, name::String)
-    return Blackbox(dim, obj, Function[], Function[], name)
-end
-
-"""
-    Blackbox(dim::Int, obj::Function)
-
-Construct a `dim`-dimensional `Blackbox` problem with objective `obj` and an empty name.
-The constraints vectors are initialized empty.
-"""
-function Blackbox(dim::Int, obj::Function)
-    return Blackbox(dim, obj, "")
+function Blackbox(dim::Int, obj::Function; name::String="", lbound::Union{Vector{Float64},Nothing}=nothing, ubound::Union{Vector{Float64},Nothing}=nothing)
+    lb = (lbound === nothing ? fill(typemin(Float64), dim) : lbound)
+    ub = (ubound === nothing ? fill(typemax(Float64), dim) : ubound)
+    return Blackbox(dim, obj, Function[], Function[], name, lb, ub)
 end
 
 """
@@ -48,6 +42,24 @@ Return the dimension of the blackbox problem `bb`, i.e. its number of variables.
 """
 function get_dim(bb::Blackbox)::Int
     return bb.dim
+end
+
+"""
+    get_lbound(bb::Blackbox) -> Vector{Float64}
+
+Return the lower bounds of the blackbox problem `bb`.
+"""
+function get_lbound(bb::Blackbox)::Vector{Float64}
+    return bb.lbound
+end
+
+"""
+    get_ubound(bb::Blackbox) -> Vector{Float64}
+
+Return the upper bounds of the blackbox problem `bb`.
+"""
+function get_ubound(bb::Blackbox)::Vector{Float64}
+    return bb.ubound
 end
 
 """
