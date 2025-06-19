@@ -11,7 +11,6 @@ include("structures/problem.jl")
 include("auglag/auglag.jl")
 
 # Profiles
-include("profiles/read.jl")
 include("profiles/convergence.jl")
 include("profiles/performance.jl")
 
