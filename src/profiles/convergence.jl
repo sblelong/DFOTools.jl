@@ -18,7 +18,7 @@ Plot the convergence of a list of algorithms on the same problem, optionally dis
 # Returns
 - fig (`Plots.Plot`): a plot showing convergence.
 """
-function convergence_plot(data::Vector{Vector{Float64}}; algs_names::Union{Vector{String},Nothing}=nothing, adjust_limit::Bool=false, ref_value::Union{Float64,Nothing}=nothing, ref_value_label::Union{String,LaTeXString,Nothing}=nothing)
+function convergence_plot(data::Vector{Vector{Float64}}; algs_names::Union{Vector{String},Nothing}=nothing, adjust_limit::Bool=false, ref_value::Union{Float64,Nothing}=nothing, ref_value_label::Union{String,LaTeXString,Nothing}=nothing, filename::Union{String,Nothing}=nothing)
     n_algs = length(data)
 
     if algs_names === nothing
@@ -57,6 +57,10 @@ function convergence_plot(data::Vector{Vector{Float64}}; algs_names::Union{Vecto
     # Add an optional line to show a known reference value for the objective
     if !isnothing(ref_value)
         hline!([ref_value]; linewidth=3, label=ref_value_label, linestyle=:dot, color=:red)
+    end
+
+    if !isnothing(filename)
+        savefig(fig, filename)
     end
 
     return fig
