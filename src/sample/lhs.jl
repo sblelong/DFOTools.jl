@@ -8,7 +8,7 @@ using ResumableFunctions
 
 Perform a latin hypercube sampling with given bounds, and return `p` sampled points. It is assumed that bounds are well-defined.
 """
-function lhs(n::Int, lb::Vector{Float64}, ub::Vector{Float64}, p::Int; seed::Union{Int,Nothing})::Vector{Vector{Float64}}
+@resumable function lhs(n::Int, lb::Vector{Float64}, ub::Vector{Float64}, p::Int; seed::Union{Int,Nothing})::Vector{Vector{Float64}}
     # If one of the variables is not bounded, throw error
     if (-INFTY in lb) || (INFTY in ub)
         throw(ArgumentError("Cannot perform LHS: one of the variables is not bounded."))
