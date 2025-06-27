@@ -9,6 +9,7 @@ include("structures/problem.jl")
 
 # Algorithms
 include("auglag/auglag.jl")
+include("sample/lhs.jl")
 
 # Profiles
 include("profiles/convergence.jl")
