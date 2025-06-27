@@ -2,7 +2,7 @@ using DFOTools
 using Test
 
 @testset "structs" begin
-    bb1 = Blackbox(2, x -> x[1])
+    bb1 = Blackbox(2, x -> x[1], [0.0])
     @test nb_ineqs(bb1) == 0
     @test nb_eqs(bb1) == 0
     add_ineq!(bb1, x -> x[1])
