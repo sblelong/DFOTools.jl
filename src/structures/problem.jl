@@ -8,31 +8,35 @@ A structure that represents a (constrained) blackbox optimization problem under 
 ``\\min f(x)\\text{ s.t. }c(x)\\leq 0, h(x)=0``
 
 # Attributes
+- `dim` (`Int`): the number of variables in the problem.
 - `obj::Function`: objective function to be minimized.
 - `ineqs::Vector{Function}`: vector of inequality constraints (c(x)≤0)
 - `eqs::Vector{Function}`: vector of equality constraints (h(x)=0)
+- `lbound` (`Vector{Float64}`): the lower bound constraints
+- `ubound` (`Vector{Float64}`): the upper bound constraints
+- `x0` (`Vector{Float64}`): the initial guess when solving the problem
 - `name::String`: name of the problem.
 """
 mutable struct Blackbox
     dim::Int
     obj::Function
+    x0::Vector{Float64}
     ineqs::Vector{Function}
     eqs::Vector{Function}
-    name::String
     lbound::Vector{Float64}
     ubound::Vector{Float64}
+    name::String
 end
-
 """
-    Blackbox(dim::Int, obj::Function, lbound::Vector{Float64}, ubound::Vector{Float64}, name::String)
+    Blackbox(dim::Int, obj::Function, x0::Vector{Float64}; lbound::Vector{Float64}, ubound::Vector{Float64}, name::String)
 
-Construct a `dim`-dimensional `Blackbox` problem with objective `obj`, name `name` and given bounds.
-The constraints vectors are initialized empty.
+Construct a `dim`-dimensional `Blackbox` problem with objective `obj`, name `name`, initial point `x0` and given bounds.
+The constraints vectors and the scaling factors are initialized empty.
 """
-function Blackbox(dim::Int, obj::Function; name::String="", lbound::Union{Vector{Float64},Nothing}=nothing, ubound::Union{Vector{Float64},Nothing}=nothing)
-    lb = (lbound === nothing ? fill(typemin(Float64), dim) : lbound)
-    ub = (ubound === nothing ? fill(typemax(Float64), dim) : ubound)
-    return Blackbox(dim, obj, Function[], Function[], name, lb, ub)
+function Blackbox(dim::Int, obj::Function, x0::Vector{Float64}; name::String="", lbound::Union{Vector{Float64},Nothing}=nothing, ubound::Union{Vector{Float64},Nothing}=nothing)
+    lb = (lbound === nothing ? fill(-INFTY, dim) : lbound)
+    ub = (ubound === nothing ? fill(-INFTY, dim) : ubound)
+    return Blackbox(dim, obj, x0, Function[], Function[], name, lb, ub)
 end
 
 """
@@ -42,6 +46,15 @@ Return the dimension of the blackbox problem `bb`, i.e. its number of variables.
 """
 function get_dim(bb::Blackbox)::Int
     return bb.dim
+end
+
+"""
+    get_x0(bb::Blackbox) -> Vector{Float64}
+
+Return the initial guess of the blackbox problem `bb`.
+"""
+function get_x0(bb::Blackbox)::Vector{Float64}
+    return bb.x0
 end
 
 """
