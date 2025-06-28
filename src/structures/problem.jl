@@ -36,7 +36,7 @@ The constraints vectors and the scaling factors are initialized empty.
 function Blackbox(dim::Int, obj::Function, x0::Vector{Float64}; name::String="", lbound::Union{Vector{Float64},Nothing}=nothing, ubound::Union{Vector{Float64},Nothing}=nothing)
     lb = (lbound === nothing ? fill(-INFTY, dim) : lbound)
     ub = (ubound === nothing ? fill(-INFTY, dim) : ubound)
-    return Blackbox(dim, obj, x0, Function[], Function[], name, lb, ub)
+    return Blackbox(dim, obj, x0, Function[], Function[], lb, ub, name)
 end
 
 """
