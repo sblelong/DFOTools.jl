@@ -1,0 +1,2730 @@
+{
+    "CSFI1": {
+        "f0": -0.5,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "nbound": 5
+    },
+    "HS39": {
+        "f0": -2.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "ALLINITC": {
+        "f0": 13.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 3
+    },
+    "EXTRASIM": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 1
+    },
+    "PRICE4NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            5.0
+        ],
+        "nbound": 0
+    },
+    "HS9": {
+        "f0": 0.0,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "CLUSTER": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "PORTFL4": {
+        "f0": 0.030976488608935874,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 12,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333
+        ],
+        "nbound": 12
+    },
+    "ALSOTAME": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 2
+    },
+    "MARATOS": {
+        "f0": -1.09999978,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            1.1,
+            0.1
+        ],
+        "nbound": 0
+    },
+    "HONG": {
+        "f0": 149.4388813687757,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "nbound": 4
+    },
+    "HS7": {
+        "f0": -0.3905620875658997,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "HS100LNP": {
+        "f0": 714.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 7,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            2.0,
+            0.0,
+            4.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "HS53": {
+        "f0": 6.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 5
+    },
+    "HS68": {
+        "f0": -0.2618411176571153,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 4
+    },
+    "POWERSUMNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 4
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "HS46": {
+        "f0": 3.3376262662361817,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.707106781,
+            2.0,
+            0.5,
+            2.0,
+            1.75
+        ],
+        "nbound": 0
+    },
+    "HS54": {
+        "f0": -0.765099291681244,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 6,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            6000.0,
+            1.5,
+            4.0e6,
+            2.0,
+            0.003,
+            5.0e7
+        ],
+        "nbound": 6
+    },
+    "BT10": {
+        "f0": -2.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "ZANGWIL3": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            100.0,
+            -1.0,
+            2.5
+        ],
+        "nbound": 0
+    },
+    "DENSCHNBNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "TRUSPYR1": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "nvar": 11,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 8
+    },
+    "GOTTFR": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.5,
+            0.5
+        ],
+        "nbound": 0
+    },
+    "HS51": {
+        "f0": 8.5,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            2.5,
+            0.5,
+            2.0,
+            -1.0,
+            0.5
+        ],
+        "nbound": 0
+    },
+    "WAYSEA1NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            5.0
+        ],
+        "nbound": 0
+    },
+    "DIXCHLNG": {
+        "f0": 313465.431258363,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 10,
+        "eqs": {
+            "lin": 0,
+            "nlin": 5
+        },
+        "x0": [
+            -2.0,
+            -0.5,
+            3.0,
+            0.333333333,
+            -4.0,
+            -0.25,
+            5.0,
+            0.2,
+            -6.0,
+            -0.166666667
+        ],
+        "nbound": 0
+    },
+    "BT5": {
+        "f0": 976.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "CSFI2": {
+        "f0": 0.5,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "nbound": 5
+    },
+    "POWELLSE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 2,
+            "nlin": 2
+        },
+        "x0": [
+            3.0,
+            -1.0,
+            0.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "PFIT4": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            0.0,
+            1.0
+        ],
+        "nbound": 1
+    },
+    "BROWNBSNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "POWELLBS": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "HS63": {
+        "f0": 976.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 3
+    },
+    "HS61": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "HS49": {
+        "f0": 266.000064,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            10.0,
+            7.0,
+            2.0,
+            -3.0,
+            0.8
+        ],
+        "nbound": 0
+    },
+    "HS56": {
+        "f0": -1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 7,
+        "eqs": {
+            "lin": 0,
+            "nlin": 4
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            0.50973968,
+            0.50973968,
+            0.50973968,
+            0.98511078
+        ],
+        "nbound": 0
+    },
+    "HS79": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "HS81": {
+        "f0": -0.49966453737209804,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -2.0,
+            2.0,
+            2.0,
+            -1.0,
+            -1.0
+        ],
+        "nbound": 5
+    },
+    "HS74": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 4
+    },
+    "FLETCHER": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 1
+    },
+    "HS60": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 3
+    },
+    "HIMMELBE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 2,
+            "nlin": 1
+        },
+        "x0": [
+            -1.2,
+            2.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "AIRCRFTA": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 8,
+        "eqs": {
+            "lin": 0,
+            "nlin": 5
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1,
+            0.0,
+            0.0
+        ],
+        "nbound": 3
+    },
+    "HS41": {
+        "f0": -6.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 4
+    },
+    "HS80": {
+        "f0": 0.00033546262790251185,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -2.0,
+            2.0,
+            2.0,
+            -1.0,
+            -1.0
+        ],
+        "nbound": 5
+    },
+    "HS8": {
+        "f0": -1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "WACHBIEG": {
+        "f0": -2.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -2.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 2
+    },
+    "LSNNODOC": {
+        "f0": 2568.5727609564105,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 4,
+            "nlin": 0
+        },
+        "x0": [
+            4.0,
+            6.0,
+            2.0,
+            6.0,
+            4.0
+        ],
+        "nbound": 3
+    },
+    "DENSCHNFNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "ROBOT": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 14,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 14
+    },
+    "HIMMELBC": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "BT12": {
+        "f0": 4.99975442,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            15.811,
+            1.5811,
+            0.0,
+            15.083,
+            3.7164
+        ],
+        "nbound": 0
+    },
+    "BYRDSPHR": {
+        "f0": -5.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            5.0,
+            0.0001,
+            -0.0001
+        ],
+        "nbound": 0
+    },
+    "ALLINITA": {
+        "f0": 13.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 3
+    },
+    "MWRIGHT": {
+        "f0": 92.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -1.0,
+            2.0,
+            1.0,
+            -2.0,
+            -2.0
+        ],
+        "nbound": 0
+    },
+    "BT6": {
+        "f0": 4.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "HYPCIR": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "EGGCRATENE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "BEALENE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "TRY-B": {
+        "f0": 81.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            10.0,
+            10.0
+        ],
+        "nbound": 2
+    },
+    "PRICE3NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            5.0
+        ],
+        "nbound": 0
+    },
+    "HS112": {
+        "f0": -20.960285092994035,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 10,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+        ],
+        "nbound": 10
+    },
+    "HS48": {
+        "f0": 84.0,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            3.0,
+            5.0,
+            -3.0,
+            2.0,
+            -2.0
+        ],
+        "nbound": 0
+    },
+    "HS6": {
+        "f0": 4.840000000000001,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            -1.2,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "BT9": {
+        "f0": -2.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "LIN": {
+        "f0": null,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            0.5,
+            0.0,
+            0.0,
+            0.5
+        ],
+        "nbound": 4
+    },
+    "S308NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            3.0,
+            0.1
+        ],
+        "nbound": 0
+    },
+    "HATFLDBNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 3
+        },
+        "x0": [
+            0.1,
+            0.1,
+            0.1,
+            0.1
+        ],
+        "nbound": 4
+    },
+    "HELIXNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 2
+        },
+        "x0": [
+            -1.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "HIMMELBA": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            8.0,
+            9.0
+        ],
+        "nbound": 0
+    },
+    "HS114": {
+        "f0": -872.387200000001,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 4,
+            "nlin": 4
+        },
+        "nvar": 10,
+        "eqs": {
+            "lin": 1,
+            "nlin": 2
+        },
+        "x0": [
+            92.8,
+            3048.0,
+            110.0,
+            12000.0,
+            1974.0,
+            3.6,
+            1745.0,
+            8.0,
+            89.2,
+            145.0
+        ],
+        "nbound": 10
+    },
+    "BT4": {
+        "f0": -18.608932123,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -2.947,
+            4.0382,
+            -0.09115
+        ],
+        "nbound": 0
+    },
+    "HS28": {
+        "f0": 13.0,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            -4.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "PORTFL2": {
+        "f0": 0.03446994824794894,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 12,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333
+        ],
+        "nbound": 12
+    },
+    "STREGNE": {
+        "f0": 1.0e20,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -1.2,
+            1.0e10,
+            1.0e10,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "HS2NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -2.0,
+            1.0
+        ],
+        "nbound": 1
+    },
+    "HS99": {
+        "f0": -7.763604966046008e8,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 7,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "nbound": 7
+    },
+    "HS47": {
+        "f0": 20.738077455848916,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            2.0,
+            1.41421356,
+            -1.0,
+            0.5,
+            0.585786438
+        ],
+        "nbound": 0
+    },
+    "PFIT3": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            0.0,
+            1.0
+        ],
+        "nbound": 1
+    },
+    "HATFLDANE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 3
+        },
+        "x0": [
+            0.1,
+            0.1,
+            0.1,
+            0.1
+        ],
+        "nbound": 4
+    },
+    "BT2": {
+        "f0": 81.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            10.0,
+            10.0,
+            10.0
+        ],
+        "nbound": 0
+    },
+    "HS1NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -2.0,
+            1.0
+        ],
+        "nbound": 1
+    },
+    "HS77": {
+        "f0": 4.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "RECIPE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            5.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "HS73": {
+        "f0": 130.8,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 4
+    },
+    "HS75": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 4
+    },
+    "LEVYMONE5": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 2
+        },
+        "x0": [
+            -8.0,
+            8.0
+        ],
+        "nbound": 2
+    },
+    "DENSCHNCNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            3.0
+        ],
+        "nbound": 0
+    },
+    "BT8": {
+        "f0": 3.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "HS111LNP": {
+        "f0": -21.01453947523903,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 10,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3
+        ],
+        "nbound": 0
+    },
+    "HS52": {
+        "f0": 42.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "TRUSPYR2": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 8,
+            "nlin": 0
+        },
+        "nvar": 11,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "nbound": 8
+    },
+    "HS71": {
+        "f0": 16.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            5.0,
+            5.0,
+            1.0
+        ],
+        "nbound": 4
+    },
+    "HS50": {
+        "f0": 7516.0,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            35.0,
+            -31.0,
+            11.0,
+            5.0,
+            -5.0
+        ],
+        "nbound": 0
+    },
+    "HS62": {
+        "f0": -25698.301107449573,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.7,
+            0.2,
+            0.1
+        ],
+        "nbound": 3
+    },
+    "HATFLDFLNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.98,
+            -1.2,
+            1.2
+        ],
+        "nbound": 0
+    },
+    "DENSCHNDNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            10.0,
+            10.0,
+            10.0
+        ],
+        "nbound": 0
+    },
+    "HS32": {
+        "f0": 7.199999999999999,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.1,
+            0.7,
+            0.2
+        ],
+        "nbound": 3
+    },
+    "HS87": {
+        "f0": 8927.5964,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 6,
+        "eqs": {
+            "lin": 0,
+            "nlin": 4
+        },
+        "x0": [
+            107.8119,
+            196.3186,
+            373.8307,
+            420.0,
+            0.153292,
+            21.30713
+        ],
+        "nbound": 6
+    },
+    "S316-322": {
+        "f0": 800.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "DENSCHNENE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 1,
+            "nlin": 2
+        },
+        "x0": [
+            -8.0,
+            3.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "TAME": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 2
+    },
+    "HS26": {
+        "f0": 21.159999999999997,
+        "x0feas": true,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            -2.6,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "HS14": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "HS42": {
+        "f0": 14.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "HIMMELBD": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "SUPERSIM": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 1
+    },
+    "CUBENE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -1.2,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "BT13": {
+        "f0": 228.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            2.0,
+            3.0,
+            3.0,
+            228.0
+        ],
+        "nbound": 1
+    },
+    "RSNBRNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            -1.2,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "SINVALNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            4.712389,
+            -1.0
+        ],
+        "nbound": 0
+    },
+    "PFIT2": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            0.0,
+            1.0
+        ],
+        "nbound": 1
+    },
+    "FLT": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "PORTFL6": {
+        "f0": 0.030479616413132612,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 12,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333
+        ],
+        "nbound": 12
+    },
+    "PORTSNQP": {
+        "f0": 4.3999999999999995,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 10,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "nbound": 10
+    },
+    "PORTFL3": {
+        "f0": 0.03930599357403432,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 12,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333
+        ],
+        "nbound": 12
+    },
+    "HS78": {
+        "f0": -6.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -2.0,
+            1.5,
+            2.0,
+            -1.0,
+            -1.0
+        ],
+        "nbound": 0
+    },
+    "HS40": {
+        "f0": -0.40960000000000013,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.8,
+            0.8,
+            0.8,
+            0.8
+        ],
+        "nbound": 0
+    },
+    "PORTFL1": {
+        "f0": 0.025441808564334964,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 12,
+        "eqs": {
+            "lin": 1,
+            "nlin": 0
+        },
+        "x0": [
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333,
+            0.0833333333
+        ],
+        "nbound": 12
+    },
+    "BT3": {
+        "f0": 2166.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 3,
+            "nlin": 0
+        },
+        "x0": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+        ],
+        "nbound": 0
+    },
+    "SSINE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "BOOTH": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 2,
+            "nlin": 0
+        },
+        "x0": [
+            0.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "ENGVAL2NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 2,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            2.0,
+            0.0
+        ],
+        "nbound": 0
+    },
+    "HS69": {
+        "f0": -631.3526793873863,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 4,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 4
+    },
+    "HS27": {
+        "f0": 4.01,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "WAYSEA2NE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 1,
+            "nlin": 1
+        },
+        "x0": [
+            1.0,
+            5.0
+        ],
+        "nbound": 0
+    },
+    "FREURONE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            -2.0,
+            0.5
+        ],
+        "nbound": 0
+    },
+    "BT7": {
+        "f0": 909.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "POWELLSQ": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 2
+        },
+        "x0": [
+            3.0,
+            1.0
+        ],
+        "nbound": 0
+    },
+    "BT11": {
+        "f0": 1.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 5,
+        "eqs": {
+            "lin": 1,
+            "nlin": 2
+        },
+        "x0": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "nbound": 0
+    },
+    "ELATVIDUNE": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            5.0
+        ],
+        "nbound": 0
+    },
+    "HS111": {
+        "f0": -21.01453947523903,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 10,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3,
+            -2.3
+        ],
+        "nbound": 10
+    },
+    "HATFLDF": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "nbound": 0
+    },
+    "BT1": {
+        "f0": -99.08,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 2,
+        "eqs": {
+            "lin": 0,
+            "nlin": 1
+        },
+        "x0": [
+            0.08,
+            0.06
+        ],
+        "nbound": 0
+    },
+    "PFIT1": {
+        "f0": 0.0,
+        "x0feas": false,
+        "ineqs": {
+            "lin": 0,
+            "nlin": 0
+        },
+        "nvar": 3,
+        "eqs": {
+            "lin": 0,
+            "nlin": 3
+        },
+        "x0": [
+            1.0,
+            0.0,
+            1.0
+        ],
+        "nbound": 1
+    }
+}
